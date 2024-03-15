@@ -1,0 +1,79 @@
+.register{
+    background: rgb(55,28,74);
+    background: linear-gradient(90deg, rgba(55,28,74,1) 2%, rgba(7,17,64,0.9192810913427871) 43%, rgba(252,176,69,1) 100%); 
+    width: auto;
+    height: 100vh !important;
+    width: auto;
+}
+.login{
+    background: rgb(55,28,74);
+    background: linear-gradient(90deg, rgba(55,28,74,1) 2%, rgba(7,17,64,0.9192810913427871) 43%, rgba(252,176,69,1) 100%); 
+    width: auto;
+    height: 100vh !important;
+    width: auto;
+}
+.register .login {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;    
+}
+.lottie{
+    height:400px;
+}
+
+.register input{
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.784);
+    color: rgba(255, 255, 255, 0.568);
+}
+.login input{
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.784);
+    color: rgba(255, 255, 255, 0.568);
+}
+
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.749) !important;
+ }
+ 
+ label , a{
+     color: rgba(255, 255, 255, 0.536) !important;
+ }
+ 
+ .register h1{
+     font-size: 35px;
+     color: white;
+     font-weight: 600;
+ }
+ .login h1{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
+
+ .login-btn{
+    border-radius: 25px;
+    background: transparent;
+    color: green;
+    padding: 7px;
+ }
+ .login-btn:hover{
+    background-color: #2BD2FF;
+    color: antiquewhite;
+ }
+
+ @media screen and (max-width:700px) {
+    .register{
+        height: 190% !important;
+        
+    }
+    .login{
+        height: 190% !important;
+        
+    }
+}

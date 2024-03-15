@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400&family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  margin:0 ;
+  font-family: 'MuseoModerno', cursive;
+}
